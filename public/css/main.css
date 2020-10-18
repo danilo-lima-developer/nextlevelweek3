@@ -1,0 +1,29 @@
+*{
+    margin: 0; /* não quero espaçamentos, removendo o espaçamento laterais do documento, removendo a barra lateral de rolagem */ 
+    padding: 0; /* não quero preenchimentos */
+}
+
+body {
+    height: 100vh; /* fracionar a tela em 100 pedaços, ou seja ocupa toda a tela */
+    color: white;
+}
+
+:root { /* ter o controle dos elementos e propriedades no root, facilita quando vamos desenvolver para aplicações mobile */
+    font-size: 62.5%; /* 100% é 16px, padrão do navegador, 62.5% equivale a 10px */ 
+}
+
+body, input, button, textarea {
+/*
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1;
+    font-family: 'Nunito', sans-serif;
+*/
+    font: 400 1.8rem/1 'Nunito', sans-serif;
+}
+
+
+
+
+
+
